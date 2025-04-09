@@ -183,3 +183,12 @@ console.log(saludar("Maria"));
 //Crea una función llamada calcularAreaRectangulo que tome dos parámetros (ancho y alto) y devuelva el área del rectángulo. Luego, llama a la función con diferentes valores de ancho y alto y muestra el resultado en la consola.
 
 //Escribe tu código aquí
+
+function calcularAreaRectangulo(ancho, alto) {
+  return ancho * alto;
+}
+
+console.log(calcularAreaRectangulo(2, 4));
+console.log(calcularAreaRectangulo(8, 4));
+console.log(calcularAreaRectangulo(5, 15));
+console.log(calcularAreaRectangulo(6, 10));
