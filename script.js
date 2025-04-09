@@ -172,6 +172,13 @@ do {
 
 //Escribe tu código aquí
 
+function saludar(name) {
+  return `Hola holita vecinita ${name}`;
+}
+console.log(saludar("Paula"));
+console.log(saludar("Sandra"));
+console.log(saludar("Maria"));
+
 //Ejercicio 15: Calcular el Área de un Rectángulo
 //Crea una función llamada calcularAreaRectangulo que tome dos parámetros (ancho y alto) y devuelva el área del rectángulo. Luego, llama a la función con diferentes valores de ancho y alto y muestra el resultado en la consola.
 
