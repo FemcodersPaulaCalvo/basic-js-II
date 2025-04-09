@@ -132,9 +132,7 @@ const programmers = [
 
 for (let i = 0; i < 4; i++) {
   console.log(`
-        Name: ${programmers[i].name},
-        Lastname: ${programmers[i].lastname},
-        Knowledge: ${programmers[i].knowledge}.
+        ${i}: ${programmers[i].name}, ${programmers[i].lastname}, ${programmers[i].knowledge}.
         `);
 }
 
@@ -143,6 +141,10 @@ for (let i = 0; i < 4; i++) {
 const names = ["Carla", "Alex", "Judith", "Maria", "Noelia"];
 
 //Escribe tu código aquí
+
+for (let i = 0; i < 5; i++) {
+  console.log(`Hola mi nombre es ${names[i]}`);
+}
 
 //Ejercicio 12: Con un bucle while imprime en consola una lista del 1 al 5.
 
