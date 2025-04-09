@@ -42,6 +42,20 @@ if (pet == "perro") {
 
 //Escribe tu código aquí
 
+switch (pet) {
+  case "perro":
+    console.log("Tengo un perro");
+    break;
+  case "gato":
+    console.log("Tengo un gato");
+    break;
+  case "pájaro":
+    console.log("Tengo un pájaro");
+    break;
+  default:
+    console.log("No tengo una mascota convencional");
+}
+
 //Ejercicio 6: Usando un operador ternario, escribe un programa que lea la constante weather e imprima en consola si es soleado "Me vestiré con un vestido" y si no es así que imprima "Me vestiré con pantalón"
 
 const weather = "soleado";
