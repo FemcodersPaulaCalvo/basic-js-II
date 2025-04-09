@@ -150,6 +150,13 @@ for (let i = 0; i < 5; i++) {
 
 //Escribe tu código aquí
 
+let j = 0;
+
+while (j < 5) {
+  j++;
+  console.log(j);
+}
+
 //Ejercicio 13: Realiza el mismo ejercicio anterior pero con un bucle do while.
 
 //Escribe tu código aquí
