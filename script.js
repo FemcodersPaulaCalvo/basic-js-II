@@ -160,6 +160,12 @@ while (j < 5) {
 //Ejercicio 13: Realiza el mismo ejercicio anterior pero con un bucle do while.
 
 //Escribe tu código aquí
+let k = 0;
+
+do {
+  k++;
+  console.log(k);
+} while (k < 5);
 
 //Ejercicio 14: Saludo Personalizado
 //Crea una función llamada saludar que tome un parámetro llamado nombre y devuelva un saludo personalizado. Luego, llama a la función con diferentes nombres y muestra el resultado en la consola.
