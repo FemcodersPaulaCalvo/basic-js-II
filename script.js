@@ -26,6 +26,16 @@ if (age >= 18) {
 const pet = "perro";
 //Escribe tu código aquí
 
+if (pet == "perro") {
+  console.log("Tengo un perro");
+} else if (pet == "gato") {
+  console.log("Tengo un gato");
+} else if (pet == "pájaro") {
+  console.log("Tengo un pájaro");
+} else {
+  console.log("No tengo una mascota convencional");
+}
+
 //Ejercicio 4: cambia el valor de pet a "serpiente" y mira el resultado en consola para comprobar que tu código funciona bien.
 
 //Ejercicio 5: Haz el mismo ejercicio 3, pero con el condicional switch.
