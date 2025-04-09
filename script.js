@@ -58,7 +58,7 @@ switch (pet) {
 
 //Ejercicio 6: Usando un operador ternario, escribe un programa que lea la constante weather e imprima en consola si es soleado "Me vestiré con un vestido" y si no es así que imprima "Me vestiré con pantalón"
 
-const weather = "soleado";
+const weather = "frío";
 //Escribe tu código aquí;
 const result =
   weather == "soleado"
