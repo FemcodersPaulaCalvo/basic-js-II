@@ -74,6 +74,24 @@ console.log(result);
 const value = "1";
 
 //Escribe tu código aquí
+switch (typeof value) {
+  case "number":
+    console.log("Es un número");
+    break;
+  case "string":
+    console.log("Es un string");
+    break;
+  default:
+    console.log("No es ni número ni string");
+}
+
+if (typeof value == "number") {
+  console.log("Es un número");
+} else if (typeof value == "string") {
+  console.log("Es un string");
+} else {
+  console.log("No es ni número ni string");
+}
 
 //BUCLES
 
